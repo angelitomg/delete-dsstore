@@ -33,6 +33,7 @@ if len(sys.argv) > 1:
 
 		# Runs through all files in the directory
 		for root, sub, files in os.walk(path):
+			
 			for file in files:
 
 				# Checks if exists .DS_Store file
